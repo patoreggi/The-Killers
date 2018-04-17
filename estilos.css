@@ -1,0 +1,228 @@
+/* 
+  ul.menu {
+    text-decoration: NONE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.top-bar{
+        height: 100PX;
+        margin-top: 0px;
+        background: black;
+}
+
+ */
+ 
+.head{
+    display: block;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0  ;
+    margin-right: 50px;
+    padding: 0;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    z-index: 999;
+    
+
+}
+
+li {
+    display: inline-block;
+    position: relative;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.tit{
+    font-weight: 700;
+    margin: 0 10px;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.integrantes{
+    font-weight: 700;
+    margin: 0 10px;
+    color: rgb(167, 38, 38);
+    text-align: center;
+}
+
+.puesto{
+    text-align: center
+}
+
+.discografia{
+    text-align: left;
+
+}
+.discos{
+    text-align: left
+}
+
+#submenu {
+	left: 0;
+	/* opacity: 0; */
+  display: none;
+    position: absolute;
+    padding: 0px;
+}
+
+li:hover ul#submenu {
+    display: block;
+  /*	opacity: 1; */
+      top: 47px;	/* ajustar segun altura del submenu */
+      
+  }
+  #submenu li {
+      float: none;
+      width: 100%;
+
+  }
+  #submenu a:hover {
+      background: #2c2c2c;
+  }
+  #submenu a {
+      background-color:#585858;
+      text-align: center;
+      opacity: 0.9;
+  }
+
+ .fotos img {
+     max-width: 100%;
+ } 
+
+ .puesto td{
+     line-height: 10px;
+ }
+
+a:visited{
+    text-decoration: none;
+    color: white
+
+}
+
+
+nav{
+    margin: 0px;
+    position: relative;
+    background-color: #333;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+
+}
+
+#calendario{
+    border: 1px solid #333;
+    width: 100%;
+}
+
+#int{
+    width:100%;
+}
+
+.estudio{
+    text-align: right;
+
+}
+
+.albe{
+    text-align: center
+}
+
+.albr{
+    text-align: center
+}
+
+.dvd{
+    text-align: center
+}
+
+.giras{
+    text-align: center
+}
+
+
+footer { 
+    height: 100px;
+    background-color: #333;
+}
+
+
+
+
+.social{
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 100px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.fa-twitter {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.fa-instagram {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    line-height: 100px;
+}
